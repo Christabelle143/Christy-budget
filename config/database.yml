@@ -82,6 +82,4 @@ test:
 #
 production:
   <<: *default
-  database: christy_budget_production
-  username: my_blog_app
-  password: <%= ENV["CHRISTY_BUDGET_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
