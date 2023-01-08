@@ -8,9 +8,9 @@
   --bacground-color: #e5e5e5;
   --primary-color: #298cfc33;
   --btn-color: #5fb523;
-  --secondary-color: #8b0286fd;
+  --secondary-color: #02428b;
   --text-color: #434b54;
-  --bg-color: #ef03c4dc;
+  --bg-color: #0372ef42;
   --on-secondary: #fff;
   --shadow-color: #f1f1f2;
 }
@@ -112,7 +112,7 @@ form#save-categ-from {
   margin: 2.5rem 10px 0;
   text-align: center;
   color: var(--secondary-color);
-  background: #03efd353;
+  background: #0372ef26;
 
   /* border: var(--box-border); */
   border-radius: 20px;
@@ -151,7 +151,7 @@ form#save-categ-from {
 .buttons button {
   width: 100%;
   margin: 0 auto;
-  background-color: var(--secondary-color);
+  background-color: var(--btn-color);
   padding: 0.8rem;
   border: var(--bg-color);
   color: var(--on-secondary);
@@ -466,3 +466,5 @@ input:hover:not(.input-file) {
   transform: scale(1.07);
   color: var(--on-secondary);
 }
+
+
