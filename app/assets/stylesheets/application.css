@@ -87,18 +87,6 @@ form {
   border-radius: 0 0 4px  4px;
 }
 
-/* form.login-form,
-form#new-tran-from,
-form#save-categ-from {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90%;
-  padding: 3rem 2rem 2rem;
-  background-color: var(--primary-color);
-  border-radius: 16px;
-} */
 
 /* SPLASH PAGE */
 
