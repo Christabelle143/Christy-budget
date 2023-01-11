@@ -1,45 +1,78 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Budgy-Budget
 
 
-## Description
+<a name="readme-top"></a>
 
-> The Ruby on Rails capstone project ([remember what they are?](https://github.com/microverseinc/curriculum-html-css/blob/main/articles/capstone_intro.md)) is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
-- I created a Ruby on Rails application that allows the user to:
+# 📗 Table of Contents
 
-  - register and log in, so that the data is private to them.
-  - introduce new transactions associated with a category.
-  - see the money spent on each category.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-## Learning objectives
+# 📖 [Budget App] <a name="about-project"></a>
 
-- Use ruby gems as software packages system.
-- Install Ruby on Rails framework.
-- Understand Rails RESTful design and router.
-- Use controllers to handle requests and render empty views.
-- Use params from browser request in a safe way.
-- Use preprocessed html file with embedded Ruby code.
-- Use layouts and templates for shared content.
-- Use database migration files to maintain database schema.
-- Use validations for models.
-- Secure app from n+1 problems.
-- Understand what ORM is.
-- Write SQL queries with ActiveRecord.
-- Set up associations between models.
-- uild a webapp that requires the user to log in.
-- Use devise gem for authentication.
-- Limit access to webapp resources based on authorization rules.
-- Analyze in writing why you have made a coding choice using one structure over another.
+> Budget app is a mobile web application that allow users to manage their budget.
 
-## Live Demo 🔗
+## 🛠 Built With <a name="built-with"></a>
+- HTML & CSS
+- Bootstrap
+- JavaScript
+- Ruby
+- Ruby on Rails
+- Rubocop
+- Rspec
+- Postgresql
 
-[Live Demo Link](https://budgy-budget-api.herokuapp.com)
+### Tech Stack <a name="tech-stack"></a>
 
-## Loom Video 🔗
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.ruby-lang.org/en/documentation/">Ruby</a></li>
+  </ul>
+</details>
 
-[Loom Video Link](https://www.loom.com/share/2d1971886acf41eab27ea244c1f1acdb)
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://guides.rubyonrails.org/">Ruby on Rails</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](soon!!)
+
+## 🚀 Video Presentation <a name="live-demo"></a>
+
+- [Video Link](https://www.loom.com/share/c1ac0cf5489e4626922b2fa4a60ebc55)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 ## Getting Started
 
@@ -67,8 +100,7 @@ $  sudo -u postgres createuser blog-app -s
 - To create project with PostgreSQL database 
 
 ```bash
-$   rails new Rails-capstone-Budgy-Budget --database=postgresql  #or
-$   rails new Rails-capstone-Budgy-Budget -d postgresql
+$   rails new Christy-Budget --database=postgresql  #or
 
 $   cd Rails-capstone-Budget-app # Move into the application directory
 ```
@@ -77,8 +109,8 @@ $   cd Rails-capstone-Budget-app # Move into the application directory
 ### Clone this repository
 
 ```bash
-$ git clone https://github.com/BenMukebo/Budgy-Budget.git
-$ cd Budgy-Budget
+$ git clone git@github.com:Christabelle143/Christy-budget.git
+$ cd Christy-Budget
 ```
 
 ### Create the database
@@ -206,35 +238,47 @@ $  bundle exec rspec ./spec/features/
 $  bundle exec rspec ./spec/models/
 ```
 
-## Built With 🛠️
 
-This project is build with:
+## 👥 Author <a name="authors"></a>
 
--  ![Ruby](https://img.shields.io/badge/-Ruby-000000?style=flat&logo=ruby&logoColor=red)
--  ![Ruby on Rails](https://img.shields.io/badge/-Ruby_on_Rails-000000?style=flat&logo=ruby-on-rails&logoColor=blue)
-
-## Authors
+👤 ## Author
 
 👤 **Youta Christabelle**
 
+- GitHub: [Christabelle143](https://github.com/Christabelle143)
+- Twitter: [@christabelleyo](https://twitter.com/christabelleyo)
+- LinkedIn: [YoutaChristabelle](https://linkedin.com/in/YoutaChristabelle)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="features"></a>
+- Add a delete button to remove a category
+- Add an edit button to edit the transactions
 
-## 🤝 Contributor
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Christabelle143/Christy-budget/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Credit to [Gregoire Vella on Behance](https://www.behance.net/gregoirevella), the author of the original [design guidelines](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+- Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella)
+- Hat tip to anyone whose code was used
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
